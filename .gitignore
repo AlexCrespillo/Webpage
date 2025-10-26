@@ -55,6 +55,11 @@ logs/
 *.temp
 .cache/
 
+# Problematic Files
+NUL
+*/NUL
+**/NUL
+
 # Personal/Sensitive Information
 *.key
 *.pem

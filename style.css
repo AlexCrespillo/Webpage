@@ -214,3 +214,13 @@ address { font-style: normal; color: var(--muted); font-size: 15px; }
   .cv li { grid-template-columns: 1fr; gap: 0; }
   .facts { grid-template-columns: 1fr; }
 }
+
+/* Institution logos, on white tiles so they read in both themes */
+.logos { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 28px; }
+.logos > * {
+  display: flex; align-items: center; justify-content: center;
+  height: 88px; padding: 8px 14px; background: #fff; border: 1px solid var(--rule); border-radius: 8px;
+}
+.logos img { height: 100%; width: auto; display: block; }
+.logos a:hover { border-color: var(--river); }
+@media (max-width: 640px) { .logos > * { height: 72px; } }

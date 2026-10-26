@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Crespillo López</title>
+  <meta name="description" content="Alex Crespillo López, investigador predoctoral en el IPE-CSIC. Propagación de la sequía hidrológica por las redes fluviales.">
+  <meta name="author" content="Alex Crespillo López">
+  <meta property="og:title" content="Alex Crespillo López">
+  <meta property="og:description" content="Investigador predoctoral en el IPE-CSIC: cómo se propaga la sequía hidrológica por las redes fluviales.">
+  <meta property="og:image" content="../Photos%20and%20logos/portrait.jpg">
+  <link rel="alternate" hreflang="en" href="https://alexcrespillo.github.io/Webpage/">
+  <link rel="alternate" hreflang="es" href="https://alexcrespillo.github.io/Webpage/es/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="#top" class="brand">Alex Crespillo López</a>
+      <nav class="nav" aria-label="Secciones">
+        <a href="#research">Investigación</a>
+        <a href="#publications">Publicaciones</a>
+        <a href="#background">Trayectoria</a>
+        <a href="#contact">Contacto</a>
+        <a href="../Cv/CV_Alex_Crespillo_english.pdf" target="_blank" rel="noopener" class="nav-cv">CV</a>
+      </nav>
+      <div class="lang" aria-label="Idioma">
+        <a href="../" hreflang="en" lang="en" title="English version">EN</a>
+        <span aria-current="true">ES</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Presentación -->
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="eyebrow">Alex Crespillo López · Investigador predoctoral, IPE&#8209;CSIC</p>
+        <h1>Cómo viaja<br>la sequía<br>por los ríos.</h1>
+        <p class="lede">
+          Soy investigador predoctoral en el Instituto Pirenaico de Ecología (IPE&#8209;CSIC), en el
+          Laboratorio de Climatología y Servicios Climáticos. Estudio cómo se propaga la sequía
+          hidrológica por las redes fluviales: dónde empieza, cómo avanza aguas abajo y qué
+          controla el retraso entre un tramo y el siguiente.
+        </p>
+        <div class="links">
+          <a href="mailto:alex@ipe.csic.es" class="primary">Correo</a>
+          <a href="../Cv/CV_Alex_Crespillo_english.pdf" target="_blank" rel="noopener">CV (en inglés)</a>
+          <a href="https://orcid.org/0009-0009-3918-8702" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://github.com/AlexCrespillo" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.researchgate.net/profile/Alex-Crespillo" target="_blank" rel="noopener">ResearchGate</a>
+          <a href="https://www.linkedin.com/in/alexcrespillo" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <figure class="hero-figure" aria-label="Esquema del inicio de la sequía avanzando aguas abajo por una red fluvial">
+        <svg id="network" viewBox="0 0 400 440" aria-hidden="true" data-outlet="CIERRE"></svg>
+        <figcaption>
+          <span class="key key-river"></span>red fluvial
+          <span class="key key-drought"></span>inicio de la sequía, avanzando aguas abajo
+          <span class="key key-gauge"></span>estación de aforo
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- Sobre mí -->
+    <section class="about wrap">
+      <img src="../Photos%20and%20logos/portrait.jpg" alt="Alex Crespillo López" class="portrait" width="640" height="800">
+      <div class="about-text">
+        <h2 class="section-label">Sobre mí</h2>
+        <p>
+          Desarrollé un método basado en eventos que sigue cada sequía de estación en estación
+          a lo largo de la red fluvial, publicado en <em>Journal of Hydrology</em> en 2026 junto
+          con su código abierto. Ahora lo aplico para estudiar cómo ha cambiado la propagación
+          de la sequía en las últimas décadas en cuencas de todo el mundo y, con Alexander
+          Michalek en la Universidad de Minnesota, para comprobar hasta qué punto un modelo
+          hidrológico continental de Estados Unidos reproduce la sequía.
+        </p>
+        <p>
+          Llegué a la hidrología desde la geología y la meteorología, y estudio además ingeniería
+          matemática y computación de altas prestaciones, porque buena parte de mi trabajo
+          consiste en procesar largas series diarias de caudal de miles de estaciones de aforo.
+        </p>
+        <dl class="facts">
+          <div><dt>Doctorado</dt><dd>Programa de Física, Universidad de Barcelona</dd></div>
+          <div><dt>Director</dt><dd>Sergio M. Vicente-Serrano</dd></div>
+          <div><dt>Financiación</dt><dd>Programa Momentum, CSIC</dd></div>
+          <div><dt>Lectura prevista</dt><dd>Diciembre de 2028</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Investigación -->
+    <section id="research" class="section">
+      <div class="wrap">
+        <h2 class="section-label">Investigación</h2>
+        <p class="section-intro">
+          Mi tesis sigue la sequía hidrológica por la red fluvial en cuatro pasos, desde
+          medirla hasta predecirla.
+        </p>
+
+        <ol class="thesis">
+          <li>
+            <span class="num">01</span>
+            <div>
+              <h3>Seguir la propagación, evento a evento</h3>
+              <p>
+                Las sequías se identifican en cada estación a partir del caudal diario y se
+                emparejan entre estaciones anidadas a lo largo de la red, lo que da el retraso,
+                la atenuación y el alcance espacial de cada evento.
+              </p>
+            </div>
+            <span class="status done">Publicado</span>
+          </li>
+          <li>
+            <span class="num">02</span>
+            <div>
+              <h3>Cómo ha cambiado la propagación</h3>
+              <p>
+                Si la forma en que se propagan las sequías ha cambiado en las últimas décadas,
+                en redes fluviales de Europa y de otros continentes, con pruebas diseñadas para
+                separar los cambios reales de los artefactos de los registros.
+              </p>
+            </div>
+            <span class="status">En preparación</span>
+          </li>
+          <li>
+            <span class="num">03</span>
+            <div>
+              <h3>Qué la controla</h3>
+              <p>
+                Los mecanismos físicos que explican los retrasos: la estructura de la red, el
+                almacenamiento de la cuenca, las aguas subterráneas, la nieve y la regulación de
+                los ríos, puestos a prueba con el modelo Tiger-HLM junto con la Universidad de
+                Minnesota.
+              </p>
+            </div>
+            <span class="status">En curso</span>
+          </li>
+          <li>
+            <span class="num">04</span>
+            <div>
+              <h3>Predecirla</h3>
+              <p>
+                Anticipar cómo llegará a los tramos de aguas abajo una sequía que ya ha empezado
+                aguas arriba, combinando lo que muestran las tres primeras partes con aprendizaje
+                automático.
+              </p>
+            </div>
+            <span class="status">Prevista</span>
+          </li>
+        </ol>
+
+        <p class="aside">
+          También participo en los servicios climáticos del grupo para España sobre sequía,
+          rachas secas y precipitación extrema, disponibles en
+          <a href="https://lcsc.csic.es/" target="_blank" rel="noopener">lcsc.csic.es</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Publicaciones -->
+    <section id="publications" class="section">
+      <div class="wrap">
+        <h2 class="section-label">Publicaciones</h2>
+
+        <h3 class="list-head">Artículos en revistas</h3>
+        <ol class="pubs">
+          <li class="pub own">
+            <span class="year">2026</span>
+            <div>
+              <p class="title">Tracking hydrological drought propagation in river networks: an event-based framework</p>
+              <p class="authors"><b>Crespillo López, A.</b>, Vicente-Serrano, S. M., Gimeno, L.</p>
+              <p class="venue"><em>Journal of Hydrology</em>, 680, 136544</p>
+              <p class="actions">
+                <a href="https://doi.org/10.1016/j.jhydrol.2026.136544" target="_blank" rel="noopener">Artículo</a>
+                <a href="https://doi.org/10.5281/zenodo.22755834" target="_blank" rel="noopener">Código (Zenodo)</a>
+                <a href="https://github.com/AlexCrespillo/Code_v.1" target="_blank" rel="noopener">GitHub</a>
+              </p>
+            </div>
+          </li>
+          <li class="pub">
+            <span class="year">2025</span>
+            <div>
+              <p class="title">Developing science-informed maps and climate service for extreme rainfall in Spain</p>
+              <p class="authors">Vicente-Serrano, S. M., Beguería, S., Reig, F., et al., entre ellos <b>Crespillo, A.</b></p>
+              <p class="venue"><em>Natural Hazards</em>, 121, 23281–23302</p>
+              <p class="actions"><a href="https://doi.org/10.1007/s11069-025-07731-0" target="_blank" rel="noopener">Artículo</a></p>
+            </div>
+          </li>
+          <li class="pub">
+            <span class="year">2025</span>
+            <div>
+              <p class="title">An optimal and flexible approach for drought quantification based on standardised indices</p>
+              <p class="authors">Vicente-Serrano, S. M., Reig, F., Beguería, S., et al., entre ellos <b>Crespillo, A.</b></p>
+              <p class="venue"><em>International Journal of Climatology</em>, 45(10), e8906</p>
+              <p class="actions"><a href="https://doi.org/10.1002/joc.8906" target="_blank" rel="noopener">Artículo</a></p>
+            </div>
+          </li>
+          <li class="pub">
+            <span class="year">2025</span>
+            <div>
+              <p class="title">Spatial assessment of dry-spell hazards in Spain: toward an operational climate service</p>
+              <p class="authors">Halifa-Marín, A., et al., entre ellos <b>Crespillo, A.</b></p>
+              <p class="venue"><em>Water Scarcity and Drought</em>, 1(1), 4</p>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="list-head">En revisión</h3>
+        <ol class="pubs">
+          <li class="pub">
+            <span class="year">2026</span>
+            <div>
+              <p class="title">Multiscalar and nonlinear controls of drought impacts in Spain revealed from media-reported data</p>
+              <p class="authors">El Kenawy, A. M., Domínguez-Castro, F., Beguería, S., et al., entre ellos <b>Crespillo, A.</b></p>
+              <p class="venue">Prepublicación en <em>EGUsphere</em></p>
+              <p class="actions"><a href="https://doi.org/10.5194/egusphere-2026-3003" target="_blank" rel="noopener">Prepublicación</a></p>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="list-head">Congresos</h3>
+        <ol class="pubs compact">
+          <li class="pub own">
+            <span class="year">2026</span>
+            <div>
+              <p class="title">Event-based analysis of hydrological drought propagation across contrasting river basins</p>
+              <p class="venue"><b>Crespillo López, A.</b>, Vicente-Serrano, S. M., Gimeno, L. Asamblea General de la EGU, Viena, mayo de 2026.
+                <a href="https://doi.org/10.5194/egusphere-egu26-1999" target="_blank" rel="noopener">Resumen</a></p>
+            </div>
+          </li>
+          <li class="pub own">
+            <span class="year">2026</span>
+            <div>
+              <p class="title">Tracking hydrological drought propagation in river networks: an event-based framework</p>
+              <p class="venue"><b>Crespillo López, A.</b> Conferencia Internacional de Hidroinformática (HIC 2026), Zaragoza, junio de 2026.</p>
+            </div>
+          </li>
+          <li class="pub">
+            <span class="year">2026</span>
+            <div>
+              <p class="title">Non-stationary probabilities of dry-spell hazard in Spain</p>
+              <p class="venue">Vicente-Serrano, S. M., et al., entre ellos <b>Crespillo, A.</b> Asamblea General de la EGU, Viena, mayo de 2026.
+                <a href="https://doi.org/10.5194/egusphere-egu26-3914" target="_blank" rel="noopener">Resumen</a></p>
+            </div>
+          </li>
+          <li class="pub">
+            <span class="year">2024</span>
+            <div>
+              <p class="title">Thermal inversion analysis in the Andorra central valley and its relationship with pollutants and meteorological variables</p>
+              <p class="venue">Coautor; basado en mi trabajo de fin de máster. Reunión Anual de la Sociedad Meteorológica Europea (EMS).</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Trayectoria -->
+    <section id="background" class="section">
+      <div class="wrap">
+        <h2 class="section-label">Trayectoria</h2>
+
+        <div class="cols">
+          <div>
+            <h3 class="list-head">Experiencia</h3>
+            <ul class="cv">
+              <li>
+                <span class="when">2025 – hoy</span>
+                <div>
+                  <p class="what">Investigador predoctoral</p>
+                  <p class="where">IPE-CSIC, Zaragoza</p>
+                </div>
+              </li>
+              <li>
+                <span class="when">2023 – 2024</span>
+                <div>
+                  <p class="what">Prácticas de máster: análisis de datos meteorológicos y climáticos</p>
+                  <p class="where">Andorra Recerca + Innovació (AR+I), Andorra la Vella</p>
+                </div>
+              </li>
+            </ul>
+
+            <h3 class="list-head">Formación</h3>
+            <ul class="cv">
+              <li>
+                <span class="when">2025 – hoy</span>
+                <div>
+                  <p class="what">Máster en Ingeniería Matemática y Computación de Altas Prestaciones</p>
+                  <p class="where">Universidad Internacional de La Rioja (UNIR)</p>
+                </div>
+              </li>
+              <li>
+                <span class="when">2022 – 2024</span>
+                <div>
+                  <p class="what">Máster en Meteorología</p>
+                  <p class="where">Universidad de Barcelona</p>
+                  <p class="note">Trabajo de fin de máster: episodios de inversión térmica en el valle central de Andorra y su relación con las variables meteorológicas y los contaminantes.</p>
+                </div>
+              </li>
+              <li>
+                <span class="when">2018 – 2022</span>
+                <div>
+                  <p class="what">Grado en Geología, mención en Geología Ambiental</p>
+                  <p class="where">Universidad Autónoma de Barcelona</p>
+                  <p class="note">Trabajo de fin de grado: reservorios de hidrógeno nativo en la península ibérica.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="list-head">Herramientas</h3>
+            <p class="plain">
+              Python y R para series hidrológicas y climáticas, estadística de extremos y
+              aprendizaje automático. Redes de drenaje derivadas de modelos digitales de
+              elevación, ArcGIS. Grandes volúmenes de datos y computación en GPU. Git, LaTeX,
+              Streamlit, Plotly.
+            </p>
+
+            <h3 class="list-head">Idiomas</h3>
+            <p class="plain">
+              Español y catalán (lenguas maternas), inglés (nivel profesional, Cambridge First),
+              francés (DELF B2).
+            </p>
+
+            <h3 class="list-head">Cursos</h3>
+            <ul class="plain-list">
+              <li>17.ª Escuela de Verano de Aprendizaje Automático y Estadística Avanzada, Universidad Politécnica de Madrid</li>
+              <li>Bootcamp de análisis de datos e inteligencia artificial, Upgrade Hub</li>
+              <li>Introducción a R y RStudio para el análisis de datos en investigación científica, Sociedad de Amigos del Museo Nacional de Ciencias Naturales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="section contact">
+      <div class="wrap contact-inner">
+        <div>
+          <h2 class="section-label">Contacto</h2>
+          <p class="contact-line">
+            Encantado de hablar de sequía, redes fluviales o posibles colaboraciones.
+          </p>
+          <p><a class="mail" href="mailto:alex@ipe.csic.es">alex@ipe.csic.es</a></p>
+        </div>
+        <address>
+          Instituto Pirenaico de Ecología (IPE&#8209;CSIC)<br>
+          Avda. Montañana 1005<br>
+          50059 Zaragoza, España
+        </address>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer wrap">
+    <span>© 2026 Alex Crespillo López</span>
+    <span>Actualizada en octubre de 2026</span>
+  </footer>
+
+  <script src="../network.js"></script>
+</body>
+</html>
